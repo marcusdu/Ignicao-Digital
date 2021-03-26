@@ -105,6 +105,7 @@
           </template>
         </v-row>
       </v-container>
+    </v-main>
 
       <v-container>
         <v-row>
@@ -143,380 +144,30 @@
         </v-btn>
       </v-app-bar>
 
-      <v-container class="py-8 px-6">
-        <v-row>
-          <v-card id="card1" outlined>
-            <v-list>
-              <template>
-                <v-list-item>
-                  <v-list-item-avatar tile size="170"
-                    ><img
-                      src="https://s3-alpha-sig.figma.com/img/e45c/591e/213b8d3b1b6988b738678826168031af?Expires=1617580800&Signature=HOM6DAeRV~1u4YoYPU1ESeNf-blO0CSMt5Tp3LgyzeDAFAXKWv0LpaTZd0eyKFSFv~EcvJTSCM10MA45Xp85geU1s6H3ppdQU21626TC2yQ~hYQloKCpW-e2ZSfLN4D3C6iI-JamUjLVg-Dc3QylixRinOntucHeSFR~ZAzAjSL~TyTtukrv1jq84es7ZXWVkTPQ7PvJ1Mdz3IgDuQaLJmKjxbd5TSpGa4pugt-SbbodqO~sAPJZDXcUla1NQho6lB1Gt9cS7vSAUsxWQCOf7ZHXoe-U9tWzljlPPfRbUYqjkhd2DQCq-ngl~JropEnpC8TIsTHwq7USvibLLUduOg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                      alt="logo-img"
-                  /></v-list-item-avatar>
+     <meu-card></meu-card>
 
-                  <v-list-item-content>
-                    <div class="div1">Fórmula de Lançamento</div>
-                    <v-list-item-title class="list3"
-                      >Por <b>Érico Rocha</b></v-list-item-title
-                    >
-
-                    <v-list-item-subtitle class="list2">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing
-                    </v-list-item-subtitle>
-                  </v-list-item-content>
-                  <v-divider vertical></v-divider>
-
-                  <v-col cols="12" sm="3">
-                    <v-btn id="btn4" small dark
-                      >3.4<v-icon id="star1">mdi-star-outline</v-icon></v-btn
-                    ><v-p class="dinheiro">R$2500</v-p>
-                    <v-btn class="botao1"
-                      ><v-icon id="icon3">mdi-heart-outline</v-icon><b> Amei</b>
-                    </v-btn>
-                    <v-btn id="botao" dark
-                      ><v-icon id="icon3">mdi-shopping-outline</v-icon> Comprar
-                    </v-btn>
-                  </v-col>
-                </v-list-item>
-              </template>
-            </v-list>
-          </v-card>
-        </v-row>
-      </v-container>
-
-      <v-container class="py-8 px-6">
-        <v-row>
-          <v-card id="card2" outlined>
-            <v-list>
-              <template>
-                <v-list-item>
-                  <v-list-item-avatar tile size="170"
-                    ><img
-                      src="https://s3-alpha-sig.figma.com/img/e45c/591e/213b8d3b1b6988b738678826168031af?Expires=1617580800&Signature=HOM6DAeRV~1u4YoYPU1ESeNf-blO0CSMt5Tp3LgyzeDAFAXKWv0LpaTZd0eyKFSFv~EcvJTSCM10MA45Xp85geU1s6H3ppdQU21626TC2yQ~hYQloKCpW-e2ZSfLN4D3C6iI-JamUjLVg-Dc3QylixRinOntucHeSFR~ZAzAjSL~TyTtukrv1jq84es7ZXWVkTPQ7PvJ1Mdz3IgDuQaLJmKjxbd5TSpGa4pugt-SbbodqO~sAPJZDXcUla1NQho6lB1Gt9cS7vSAUsxWQCOf7ZHXoe-U9tWzljlPPfRbUYqjkhd2DQCq-ngl~JropEnpC8TIsTHwq7USvibLLUduOg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                      alt="logo-img"
-                  /></v-list-item-avatar>
-
-                  <v-list-item-content>
-                    <div class="div1">Fórmula de Lançamento</div>
-                    <v-list-item-title class="list3"
-                      >Por <b>Érico Rocha</b></v-list-item-title
-                    >
-
-                    <v-list-item-subtitle class="list2">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing
-                    </v-list-item-subtitle>
-                  </v-list-item-content>
-                  <v-divider vertical></v-divider>
-                  <v-col sm="3">
-                    <v-btn id="btn4" small dark
-                      >3.4<v-icon id="star1">mdi-star-outline</v-icon></v-btn
-                    ><v-p class="dinheiro">R$2500</v-p>
-                    <v-btn class="botao1"
-                      ><v-icon id="icon3">mdi-heart-outline</v-icon>
-                      <b> Amei</b>
-                    </v-btn>
-                    <v-btn id="botao" dark
-                      ><v-icon id="icon3">mdi-shopping-outline</v-icon> Comprar
-                    </v-btn>
-                  </v-col>
-                </v-list-item>
-              </template>
-            </v-list>
-          </v-card>
-        </v-row>
-      </v-container>
-
-      <v-container class="py-8 px-6">
-        <v-row>
-          <v-card id="card3" outlined>
-            <v-list>
-              <template>
-                <v-list-item>
-                  <v-list-item-avatar tile size="170"
-                    ><img
-                      src="https://s3-alpha-sig.figma.com/img/e45c/591e/213b8d3b1b6988b738678826168031af?Expires=1617580800&Signature=HOM6DAeRV~1u4YoYPU1ESeNf-blO0CSMt5Tp3LgyzeDAFAXKWv0LpaTZd0eyKFSFv~EcvJTSCM10MA45Xp85geU1s6H3ppdQU21626TC2yQ~hYQloKCpW-e2ZSfLN4D3C6iI-JamUjLVg-Dc3QylixRinOntucHeSFR~ZAzAjSL~TyTtukrv1jq84es7ZXWVkTPQ7PvJ1Mdz3IgDuQaLJmKjxbd5TSpGa4pugt-SbbodqO~sAPJZDXcUla1NQho6lB1Gt9cS7vSAUsxWQCOf7ZHXoe-U9tWzljlPPfRbUYqjkhd2DQCq-ngl~JropEnpC8TIsTHwq7USvibLLUduOg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                      alt="logo-img"
-                  /></v-list-item-avatar>
-
-                  <v-list-item-content>
-                    <div class="div1">Fórmula de Lançamento</div>
-                    <v-list-item-title class="list3"
-                      >Por <b>Érico Rocha</b></v-list-item-title
-                    >
-
-                    <v-list-item-subtitle class="list2">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing
-                    </v-list-item-subtitle>
-                  </v-list-item-content>
-                  <v-divider vertical></v-divider>
-                  <v-col sm="3">
-                    <v-btn id="btn4" small dark
-                      >3.4<v-icon id="star1">mdi-star-outline</v-icon></v-btn
-                    >
-                    <v-p class="dinheiro">R$2500</v-p>
-                    <v-btn class="botao1"
-                      ><v-icon id="icon3">mdi-heart-outline</v-icon>
-                      <b> Amei</b>
-                    </v-btn>
-                    <v-btn id="botao" dark
-                      ><v-icon id="icon3">mdi-shopping-outline</v-icon> Comprar
-                    </v-btn>
-                  </v-col>
-                </v-list-item>
-              </template>
-            </v-list>
-          </v-card>
-        </v-row>
-      </v-container>
-
-      <v-container class="py-8 px-6">
-        <v-row>
-          <v-card id="card4" outlined>
-            <v-list>
-              <template>
-                <v-list-item>
-                  <v-list-item-avatar tile size="170"
-                    ><img
-                      src="https://s3-alpha-sig.figma.com/img/e45c/591e/213b8d3b1b6988b738678826168031af?Expires=1617580800&Signature=HOM6DAeRV~1u4YoYPU1ESeNf-blO0CSMt5Tp3LgyzeDAFAXKWv0LpaTZd0eyKFSFv~EcvJTSCM10MA45Xp85geU1s6H3ppdQU21626TC2yQ~hYQloKCpW-e2ZSfLN4D3C6iI-JamUjLVg-Dc3QylixRinOntucHeSFR~ZAzAjSL~TyTtukrv1jq84es7ZXWVkTPQ7PvJ1Mdz3IgDuQaLJmKjxbd5TSpGa4pugt-SbbodqO~sAPJZDXcUla1NQho6lB1Gt9cS7vSAUsxWQCOf7ZHXoe-U9tWzljlPPfRbUYqjkhd2DQCq-ngl~JropEnpC8TIsTHwq7USvibLLUduOg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                      alt="logo-img"
-                  /></v-list-item-avatar>
-
-                  <v-list-item-content>
-                    <div class="div1">Fórmula de Lançamento</div>
-                    <v-list-item-title class="list3"
-                      >Por <b>Érico Rocha</b></v-list-item-title
-                    >
-
-                    <v-list-item-subtitle class="list2">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing
-                    </v-list-item-subtitle>
-                  </v-list-item-content>
-                  <v-divider vertical></v-divider>
-                  <v-col sm="3">
-                    <v-btn id="btn4" small dark
-                      >3.4<v-icon id="star1">mdi-star-outline</v-icon></v-btn
-                    >
-                    <v-p class="dinheiro">R$2500</v-p>
-                    <v-btn class="botao1"
-                      ><v-icon id="icon3">mdi-heart-outline</v-icon><b> Amei</b>
-                    </v-btn>
-                    <v-btn id="botao" dark
-                      ><v-icon id="icon3">mdi-shopping-outline</v-icon> Comprar
-                    </v-btn>
-                  </v-col>
-                </v-list-item>
-              </template>
-            </v-list>
-          </v-card>
-        </v-row>
-      </v-container>
-
-      <v-container class="py-8 px-6">
-        <v-row>
-          <v-card id="card5" outlined>
-            <v-list>
-              <template>
-                <v-list-item>
-                  <v-list-item-avatar tile size="170"
-                    ><img
-                      src="https://s3-alpha-sig.figma.com/img/e45c/591e/213b8d3b1b6988b738678826168031af?Expires=1617580800&Signature=HOM6DAeRV~1u4YoYPU1ESeNf-blO0CSMt5Tp3LgyzeDAFAXKWv0LpaTZd0eyKFSFv~EcvJTSCM10MA45Xp85geU1s6H3ppdQU21626TC2yQ~hYQloKCpW-e2ZSfLN4D3C6iI-JamUjLVg-Dc3QylixRinOntucHeSFR~ZAzAjSL~TyTtukrv1jq84es7ZXWVkTPQ7PvJ1Mdz3IgDuQaLJmKjxbd5TSpGa4pugt-SbbodqO~sAPJZDXcUla1NQho6lB1Gt9cS7vSAUsxWQCOf7ZHXoe-U9tWzljlPPfRbUYqjkhd2DQCq-ngl~JropEnpC8TIsTHwq7USvibLLUduOg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                      alt="logo-img"
-                  /></v-list-item-avatar>
-
-                  <v-list-item-content>
-                    <div class="div1">Fórmula de Lançamento</div>
-                    <v-list-item-title class="list3"
-                      >Por <b>Érico Rocha</b></v-list-item-title
-                    >
-
-                    <v-list-item-subtitle class="list2">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing
-                    </v-list-item-subtitle>
-                  </v-list-item-content>
-                  <v-divider vertical></v-divider>
-                  <v-col sm="3">
-                    <v-btn id="btn4" small dark
-                      >3.4<v-icon id="star1">mdi-star-outline</v-icon></v-btn
-                    >
-                    <v-p class="dinheiro">R$2500</v-p>
-                    <v-btn class="botao1"
-                      ><v-icon id="icon3">mdi-heart-outline</v-icon>
-                      <b> Amei</b>
-                    </v-btn>
-                    <v-btn id="botao" dark
-                      ><v-icon id="icon3">mdi-shopping-outline</v-icon> Comprar
-                    </v-btn>
-                  </v-col>
-                </v-list-item>
-              </template>
-            </v-list>
-          </v-card>
-        </v-row>
-      </v-container>
-    </v-main>
-
-    <v-main>
-      <v-container>
-        <v-row>
-          <v-card id="form" outlined>
-            <v-container>
-              <v-p class="p3"><b>Preços</b></v-p>
-              <v-radio-group>
-                <v-radio label="R$10" color="#969696" value="radio-1"></v-radio>
-                <v-radio
-                  label="R$10-R$100"
-                  color="#969696"
-                  value="radio-2"
-                ></v-radio>
-                <v-radio
-                  label="R$100-R$500"
-                  color="#969696"
-                  value="radio-3"
-                ></v-radio>
-                <v-radio
-                  label="R$500"
-                  color="#969696"
-                  value="radio-4"
-                ></v-radio>
-                <v-radio
-                  label="Todos"
-                  color="#969696"
-                  value="radio-5"
-                ></v-radio>
-              </v-radio-group>
-              <v-divider></v-divider>
-            </v-container>
-            <v-container>
-              <v-p class="p3"><b>Valores</b></v-p>
-              <v-p class="valores"><b>1.99 - 4098</b></v-p>
-              <v-card-text>
-                <v-range-slider
-                  v-model="value"
-                  step="10"
-                  color="#606060"
-                ></v-range-slider>
-              </v-card-text>
-              <v-divider></v-divider>
-            </v-container>
-
-            <v-container>
-              <v-p class="p3"><b>Categorias</b></v-p>
-
-              <v-checkbox label="Érico Rocha" color="#969696"></v-checkbox>
-              <p id="check">1920</p>
-              <v-checkbox label="Desafio 6 em 7" color="#969696"></v-checkbox>
-              <p id="check">1820</p>
-              <v-checkbox
-                label="Fórmula de Lançamento"
-                color="#969696"
-              ></v-checkbox>
-              <p id="check">462</p>
-              <v-checkbox label="KlickPages " color="#969696"></v-checkbox>
-              <p id="check">6556</p>
-              <v-checkbox label="Audios" color="#969696"></v-checkbox>
-              <p id="check">120</p>
-
-              <v-divider></v-divider>
-            </v-container>
-
-            <v-container>
-              <v-p class="p3"><b>Avaliação</b></v-p>
-              <v-row class="mt-1">
-                <v-col sm="8">
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star</v-icon>
-                  </v-btn>
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star</v-icon>
-                  </v-btn>
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star</v-icon>
-                  </v-btn>
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star</v-icon>
-                  </v-btn>
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star</v-icon>
-                  </v-btn>
-                </v-col>
-                <p class="avaliacao">8500</p>
-              </v-row>
-
-              <v-row class="mt-1">
-                <v-col sm="8">
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star</v-icon>
-                  </v-btn>
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star</v-icon>
-                  </v-btn>
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star</v-icon>
-                  </v-btn>
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star</v-icon>
-                  </v-btn>
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star-outline</v-icon>
-                  </v-btn>
-                </v-col>
-                <p class="avaliacao">3250</p>
-              </v-row>
-
-              <v-row class="mt-1">
-                <v-col sm="8">
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star</v-icon>
-                  </v-btn>
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star</v-icon>
-                  </v-btn>
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star</v-icon>
-                  </v-btn>
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star-outline</v-icon>
-                  </v-btn>
-                  <v-btn icon disabled>
-                    <v-icon>mdi-star-outline</v-icon>
-                  </v-btn>
-                </v-col>
-                <p class="avaliacao">1120</p>
-              </v-row>
-            </v-container>
-            <br />
-            <br /><br /><br /><br /><br /><br />
-
-            <v-btn id="btn3" dark>Limpar Filtros</v-btn>
-          </v-card>
-        </v-row>
-      </v-container>
-    </v-main>
+    <meu-filtro></meu-filtro>
     <br />
     <br />
     <br />
     <br />
-    <br />
-    <br /><br><br>
 
-    <v-col cols="12" sm="11">
-      <div class="pagina">
-        <v-pagination
-          v-model="page"
-          :length="10"
-          color="#969696"
-          circle
-        ></v-pagination>
-      </div>
-    </v-col>
-
+    <div class="pagina">
+      <v-pagination
+        v-model="page"
+        :length="10"
+        color="#969696"
+        circle
+      ></v-pagination>
+    </div>
     <br />
   </v-app>
 </template>
 
 
 <script>
+import Card from './components/Card/card.vue'
+import Filtro from './components/Filtro/filtro.vue'
 export default {
   data: () => ({
     drawer: null,
@@ -526,9 +177,13 @@ export default {
       ["mdi-checkbox-marked-outline", "Todo"],
       ["mdi-calendar-outline", "Calendário"],
     ],
-    value: [0, 80],
     page: 6,
   }),
+  components:{
+    'meu-card':Card,
+    'meu-filtro':Filtro
+  
+}
 };
 </script>
 <style >
@@ -536,78 +191,16 @@ export default {
   background-color: #f9f9f9;
   font-family: "Montserrat", sans-serif;
 }
-#botao {
-  border-radius: 10px;
-  background: #686868;
 
-  font-size: 14px;
-  margin: 10%;
-  width: 110%;
-  margin-top: -3%;
-  margin-left: 3%;
-}
-.botao1 {
-  font-size: 14px;
-  color: #e5e5e5;
-  border-radius: 10px;
-  margin: 10%;
-  width: 110%;
-  margin-top: 60%;
-  margin-left: 3%;
-}
-
-#card1 {
-  position: absolute;
-  width: 60.5%;
-  border-radius: 10px;
-  margin-left: 37.5%;
-  
-}
-#card2 {
-  position: absolute;
-  width: 60.5%;
-  border-radius: 10px;
-  margin-left: 37.5%;
-  margin-top: 18%;
-}
-#card3 {
-  position: absolute;
-  width: 60.5%;
-  border-radius: 10px;
-  margin-left: 37.5%;
-  margin-top: 36%;
-}
-#card4 {
-  position: absolute;
-  width: 60.5%;
-  border-radius: 10px;
-  border-radius: 10px;
-  margin-left: 37.5%;
-  margin-top: 54%;
-}
-#card5 {
-  position: absolute;
-  width: 60.5%;
-  border-radius: 10px;
-  margin-left: 37.5%;
-  margin-top: 72%;
-}
-#form {
-  width:35%; 
-  height:1333px; 
-  margin-top: -365px;
-  margin-left: 20px;
-  border-radius: 8px;
-}
 #nav-bar {
   background: white;
-  width:76%;
+  width: 76%;
   margin-left: 23%;
   border-radius: 8px;
   top: 15%;
 }
 .usuario1 {
-  margin-left:77%;
+  margin-left: 77%;
   font-size: 14px;
   color: #2c2c2c;
 }
@@ -620,23 +213,19 @@ export default {
   left: 25.5%;
 }
 .btn2 {
-  left:24% ;
+  left: 24%;
 }
 #btn3 {
-  width: 230px;
+  width: 70%;
 
   font-size: 18px;
 
-  left: 75px;
+  margin-left: 15%;
   background: #696969;
   height: 4%;
   border-radius: 8px;
 }
-#btn4 {
-  left:70%;
-  top: -10px;
-  background: #787878;
-}
+
 .titulo {
   color: #ff7b1b;
   margin-top: -50px;
@@ -653,7 +242,7 @@ export default {
 .p1 {
   color: #2c2c2c;
 
-  margin-left: 33%;
+  margin-left: 29%;
   margin-top: 20px;
   font-size: 18px;
 }
@@ -664,9 +253,7 @@ export default {
 
   font-size: 14px;
 }
-.p3 {
-  font-size: 18px;
-}
+
 
 .divider {
   margin-left: 2%;
@@ -675,9 +262,6 @@ export default {
   color: #000000;
   margin-left: 1%;
   font-size: 20px;
-}
-#icon3 {
-  font-size: 16px;
 }
 
 .avatar1 {
@@ -689,16 +273,16 @@ export default {
 }
 .menu {
   border-radius: 8px;
-  left: 15.5%;
+  left: 12.5%;
   background-color: white;
 }
 .view {
   border-radius: 8px;
-  left: 14.5%;
+  left: 11.5%;
   background-color: white;
 }
 .listagem {
-  left: 103%;
+  left: 75%;
   top: 15px;
   border-radius: 8px;
 }
@@ -707,48 +291,20 @@ export default {
 
   font-size: 22px;
   border-radius: 8px;
-  width: 60.5%;
-  margin-left: 38.5%;
+  width: 48%;
+  margin-left: 51%;
   top: 3px;
 }
-.valores {
-  margin-left: 48%;
-  margin-top: -25px;
-  font-size: 20px;
-}
 
-#star1 {
-  font-size: 12px;
-}
+
 .filtro {
-  margin-left: 1%;
-  margin-top:3%;
+  margin-left: 19%;
+  margin-top: 3%;
 
   font-size: 18px;
   color: #2c2c2c;
 }
-#check1 {
-  background-color: #2c2c2c;
-}
 
-#check {
-  margin-top: -15%;
-  margin-left: 87%;
-  font-size: 14px;
-}
-
-.avaliacao {
-  margin-top: -12%;
-  margin-left: 85%;
-  font-size: 14px;
-}
-
-.dinheiro {
-  position: absolute;
-  margin-left: -3%;
-  margin-top: 8%;
-  font-size: 110%;
-}
 #select {
   border-radius: 4px;
 
@@ -758,18 +314,10 @@ export default {
   color: #2c2c2c;
 }
 
-.list2 {
-  font-size: 12px;
-}
-.list3 {
-  font-size: 14px;
-}
 #icon2 {
   color: #606060;
 }
-.div1 {
-  font-size: 16px;
-}
+
 .toolbar {
   color: #999999;
 }
@@ -778,9 +326,9 @@ export default {
   font-size: 14px;
 }
 .pagina {
-  margin-left: 350px; 
+  margin-left: 25%;
 }
-.logo-avatar{
-  margin-left:0%;
+.logo-avatar {
+  margin-left: 0%;
 }
 </style>
