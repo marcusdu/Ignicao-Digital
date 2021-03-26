@@ -1,6 +1,6 @@
 <template>
   <v-app id="inspire">
-    <v-navigation-drawer width="280" v-model="drawer" app>
+    <v-navigation-drawer width="280" v-model="drawer" app cols="12">
       <v-sheet class="pa-7">
         <v-avatar class="mb-4" size="50"
           ><img
@@ -42,7 +42,7 @@
     </v-navigation-drawer>
 
     <div>
-      <v-app-bar id="nav-bar" width="1025px" dense>
+      <v-app-bar id="nav-bar" dense>
         <v-btn icon>
           <v-icon id="icon2">mdi-checkbox-marked-outline</v-icon>
         </v-btn>
@@ -76,13 +76,14 @@
             Cliente VIP</v-list-item-subtitle
           >
         </v-list-item-content>
-        <v-avatar size="35"
+        <v-avatar class="logo-avatar" size="35"
           ><img
             src="https://img2.gratispng.com/20180703/ya/kisspng-computer-icons-user-avatar-user-5b3bafe2381423.1933594815306383062297.jpg"
             alt="logo-avatar"
         /></v-avatar>
       </v-app-bar>
     </div>
+
     <v-main>
       <v-container class="py-8 px-6">
         <v-row>
@@ -112,7 +113,7 @@
               <v-p class="filtro">Filtros</v-p>
 
               <v-p class="p1">200 resultados encontrados</v-p>
-              <v-col class="d-flex" cols="12" sm="2">
+              <v-col sm="2">
                 <v-select
                   class="listagem"
                   dense
@@ -142,11 +143,9 @@
         </v-btn>
       </v-app-bar>
 
-      
-
       <v-container class="py-8 px-6">
         <v-row>
-          <v-card id="card1" width="650" outlined>
+          <v-card id="card1" outlined>
             <v-list>
               <template>
                 <v-list-item>
@@ -163,13 +162,12 @@
                     >
 
                     <v-list-item-subtitle class="list2">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing 
-              
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
                     </v-list-item-subtitle>
                   </v-list-item-content>
                   <v-divider vertical></v-divider>
 
-                  <v-col sm="3">
+                  <v-col cols="12" sm="3">
                     <v-btn id="btn4" small dark
                       >3.4<v-icon id="star1">mdi-star-outline</v-icon></v-btn
                     ><v-p class="dinheiro">R$2500</v-p>
@@ -189,7 +187,7 @@
 
       <v-container class="py-8 px-6">
         <v-row>
-          <v-card id="card2" max-width="650" outlined>
+          <v-card id="card2" outlined>
             <v-list>
               <template>
                 <v-list-item>
@@ -206,7 +204,7 @@
                     >
 
                     <v-list-item-subtitle class="list2">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing 
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
                     </v-list-item-subtitle>
                   </v-list-item-content>
                   <v-divider vertical></v-divider>
@@ -231,11 +229,11 @@
 
       <v-container class="py-8 px-6">
         <v-row>
-          <v-card id="card3" max-width="650" outlined>
+          <v-card id="card3" outlined>
             <v-list>
               <template>
                 <v-list-item>
-                   <v-list-item-avatar tile size="170"
+                  <v-list-item-avatar tile size="170"
                     ><img
                       src="https://s3-alpha-sig.figma.com/img/e45c/591e/213b8d3b1b6988b738678826168031af?Expires=1617580800&Signature=HOM6DAeRV~1u4YoYPU1ESeNf-blO0CSMt5Tp3LgyzeDAFAXKWv0LpaTZd0eyKFSFv~EcvJTSCM10MA45Xp85geU1s6H3ppdQU21626TC2yQ~hYQloKCpW-e2ZSfLN4D3C6iI-JamUjLVg-Dc3QylixRinOntucHeSFR~ZAzAjSL~TyTtukrv1jq84es7ZXWVkTPQ7PvJ1Mdz3IgDuQaLJmKjxbd5TSpGa4pugt-SbbodqO~sAPJZDXcUla1NQho6lB1Gt9cS7vSAUsxWQCOf7ZHXoe-U9tWzljlPPfRbUYqjkhd2DQCq-ngl~JropEnpC8TIsTHwq7USvibLLUduOg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
                       alt="logo-img"
@@ -248,7 +246,7 @@
                     >
 
                     <v-list-item-subtitle class="list2">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing 
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
                     </v-list-item-subtitle>
                   </v-list-item-content>
                   <v-divider vertical></v-divider>
@@ -274,7 +272,7 @@
 
       <v-container class="py-8 px-6">
         <v-row>
-          <v-card id="card4" max-width="650" outlined cols="12">
+          <v-card id="card4" outlined>
             <v-list>
               <template>
                 <v-list-item>
@@ -291,7 +289,7 @@
                     >
 
                     <v-list-item-subtitle class="list2">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing 
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
                     </v-list-item-subtitle>
                   </v-list-item-content>
                   <v-divider vertical></v-divider>
@@ -316,11 +314,11 @@
 
       <v-container class="py-8 px-6">
         <v-row>
-          <v-card id="card5" max-width="650" outlined cols="12">
+          <v-card id="card5" outlined>
             <v-list>
               <template>
                 <v-list-item>
-               <v-list-item-avatar tile size="170"
+                  <v-list-item-avatar tile size="170"
                     ><img
                       src="https://s3-alpha-sig.figma.com/img/e45c/591e/213b8d3b1b6988b738678826168031af?Expires=1617580800&Signature=HOM6DAeRV~1u4YoYPU1ESeNf-blO0CSMt5Tp3LgyzeDAFAXKWv0LpaTZd0eyKFSFv~EcvJTSCM10MA45Xp85geU1s6H3ppdQU21626TC2yQ~hYQloKCpW-e2ZSfLN4D3C6iI-JamUjLVg-Dc3QylixRinOntucHeSFR~ZAzAjSL~TyTtukrv1jq84es7ZXWVkTPQ7PvJ1Mdz3IgDuQaLJmKjxbd5TSpGa4pugt-SbbodqO~sAPJZDXcUla1NQho6lB1Gt9cS7vSAUsxWQCOf7ZHXoe-U9tWzljlPPfRbUYqjkhd2DQCq-ngl~JropEnpC8TIsTHwq7USvibLLUduOg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
                       alt="logo-img"
@@ -333,7 +331,7 @@
                     >
 
                     <v-list-item-subtitle class="list2">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing 
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
                     </v-list-item-subtitle>
                   </v-list-item-content>
                   <v-divider vertical></v-divider>
@@ -361,7 +359,7 @@
     <v-main>
       <v-container>
         <v-row>
-          <v-card id="form" width="371px" height="1165px" outlined>
+          <v-card id="form" outlined>
             <v-container>
               <v-p class="p3"><b>Preços</b></v-p>
               <v-radio-group>
@@ -500,21 +498,20 @@
     <br />
     <br />
     <br />
+    <br /><br><br>
+
+    <v-col cols="12" sm="11">
+      <div class="pagina">
+        <v-pagination
+          v-model="page"
+          :length="10"
+          color="#969696"
+          circle
+        ></v-pagination>
+      </div>
+    </v-col>
+
     <br />
-
-<div class="pagina">
-  
-      <v-pagination
-        v-model="page"
-        :length="10"
-        color="#969696"
-        circle
-      ></v-pagination>
-  
-    </div>
-
-    
-    <br>
   </v-app>
 </template>
 
@@ -544,78 +541,86 @@ export default {
   background: #686868;
 
   font-size: 14px;
-  margin: 15px;
-  width: 140px;
-  top: 25px;
-  left: -10px;
+  margin: 10%;
+  width: 110%;
+  margin-top: -3%;
+  margin-left: 3%;
 }
 .botao1 {
   font-size: 14px;
   color: #e5e5e5;
   border-radius: 10px;
-  margin: 15px;
-  width: 140px;
-  top: 45px;
-  left: -10px;
+  margin: 10%;
+  width: 110%;
+  margin-top: 60%;
+  margin-left: 3%;
 }
 
 #card1 {
   position: absolute;
+  width: 60.5%;
   border-radius: 10px;
-  margin-left: 400px;
-  margin-top: 0px;
+  margin-left: 37.5%;
+  
 }
 #card2 {
   position: absolute;
+  width: 60.5%;
   border-radius: 10px;
-  margin-left: 400px;
-  margin-top: 160px;
+  margin-left: 37.5%;
+  margin-top: 18%;
 }
 #card3 {
   position: absolute;
+  width: 60.5%;
   border-radius: 10px;
-  margin-left: 400px;
-  margin-top: 320px;
+  margin-left: 37.5%;
+  margin-top: 36%;
 }
 #card4 {
   position: absolute;
+  width: 60.5%;
   border-radius: 10px;
   border-radius: 10px;
-  margin-left: 400px;
-  margin-top: 480px;
+  margin-left: 37.5%;
+  margin-top: 54%;
 }
 #card5 {
   position: absolute;
+  width: 60.5%;
   border-radius: 10px;
-  margin-left: 400px;
-  margin-top: 640px;
+  margin-left: 37.5%;
+  margin-top: 72%;
 }
 #form {
+  width:35%; 
+  height:1333px; 
   margin-top: -365px;
   margin-left: 20px;
   border-radius: 8px;
 }
 #nav-bar {
   background: white;
-  margin-left: 314px;
+  width:76%;
+  margin-left: 23%;
   border-radius: 8px;
-  top: 10px;
+  top: 15%;
 }
 .usuario1 {
-  margin-left: 247px;
+  margin-left:77%;
   font-size: 14px;
   color: #2c2c2c;
 }
 .usuario2 {
-  margin-left: 259px;
+  margin-left: 80%;
   font-size: 11px;
   color: #2c2c2c;
 }
 .btn1 {
-  left: 255px;
+  left: 25.5%;
 }
 .btn2 {
-  left: 240px;
+  left:24% ;
 }
 #btn3 {
   width: 230px;
@@ -628,7 +633,7 @@ export default {
   border-radius: 8px;
 }
 #btn4 {
-  left: 80px;
+  left:70%;
   top: -10px;
   background: #787878;
 }
@@ -641,20 +646,20 @@ export default {
 }
 .p {
   font-size: 24px;
-  margin-left: 10px;
+  margin-left: 0.5%;
 
   color: #2c2c2c;
 }
 .p1 {
   color: #2c2c2c;
 
-  margin-left: 340px;
+  margin-left: 33%;
   margin-top: 20px;
   font-size: 18px;
 }
 .p2 {
-  margin-top: 20px;
-  margin-left: 3px;
+  margin-top: 2%;
+  margin-left: 0.5%;
   color: #000000;
 
   font-size: 14px;
@@ -664,11 +669,11 @@ export default {
 }
 
 .divider {
-  margin-left: 20px;
+  margin-left: 2%;
 }
 #icon1 {
   color: #000000;
-  margin-left: 10px;
+  margin-left: 1%;
   font-size: 20px;
 }
 #icon3 {
@@ -676,24 +681,24 @@ export default {
 }
 
 .avatar1 {
-  margin-left: 745px;
+  margin-left: 73.5%;
 }
 .imagem {
-  max-width: 23px;
-  max-height: 23px;
+  max-width: 70%;
+  max-height: 70%;
 }
 .menu {
   border-radius: 8px;
-  left: 175px;
+  left: 15.5%;
   background-color: white;
 }
 .view {
   border-radius: 8px;
-  left: 165px;
+  left: 14.5%;
   background-color: white;
 }
 .listagem {
-  left: 165px;
+  left: 103%;
   top: 15px;
   border-radius: 8px;
 }
@@ -702,12 +707,12 @@ export default {
 
   font-size: 22px;
   border-radius: 8px;
-  width: 650px;
-  margin-left: 410px;
+  width: 60.5%;
+  margin-left: 38.5%;
   top: 3px;
 }
 .valores {
-  margin-left: 165px;
+  margin-left: 48%;
   margin-top: -25px;
   font-size: 20px;
 }
@@ -716,8 +721,8 @@ export default {
   font-size: 12px;
 }
 .filtro {
-  margin-left: 10px;
-  margin-top: 25px;
+  margin-left: 1%;
+  margin-top:3%;
 
   font-size: 18px;
   color: #2c2c2c;
@@ -727,22 +732,22 @@ export default {
 }
 
 #check {
-  margin-top: -45px;
-  margin-left: 300px;
+  margin-top: -15%;
+  margin-left: 87%;
   font-size: 14px;
 }
 
 .avaliacao {
-  margin-top: -40px;
-  margin-left: 310px;
+  margin-top: -12%;
+  margin-left: 85%;
   font-size: 14px;
 }
 
 .dinheiro {
   position: absolute;
-  margin-left: -10px;
-  margin-top: 50px;
-  font-size: 18px;
+  margin-left: -3%;
+  margin-top: 8%;
+  font-size: 110%;
 }
 #select {
   border-radius: 4px;
@@ -763,9 +768,7 @@ export default {
   color: #606060;
 }
 .div1 {
-  
   font-size: 16px;
-
 }
 .toolbar {
   color: #999999;
@@ -774,10 +777,10 @@ export default {
   color: #999999;
   font-size: 14px;
 }
-.pagina{
- 
-  margin-left:350px;
+.pagina {
+  margin-left: 350px; 
 }
-
-
+.logo-avatar{
+  margin-left:0%;
+}
 </style>
